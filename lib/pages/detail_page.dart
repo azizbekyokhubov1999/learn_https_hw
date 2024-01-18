@@ -7,6 +7,7 @@ class DetailPage extends StatefulWidget {
   final Product? product;
   const DetailPage({super.key, this.product});
 
+
   @override
   State<DetailPage> createState() => _DetailPageState();
 }

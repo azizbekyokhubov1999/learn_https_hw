@@ -17,6 +17,7 @@ class _HomePageState extends State<HomePage> {
   bool isLoading = false;
   late ProductModel productModel;
 
+
   Future<void> getAllProducts() async {
     String result = await NetworkService.GET(NetworkService.apiGetAllProducts);
     productModel = productModelFromJson(result);
